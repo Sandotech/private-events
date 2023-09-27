@@ -1,24 +1,15 @@
-# README
+# Private Events
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Site similar to a private [Eventbrite](https://www.eventbrite.com/) which allows users to create events and then manage user signups.
 
-Things you may want to cover:
+The main idea is:
 
-* Ruby version
+- A user can create events
 
-* System dependencies
+- A user can attend many events
 
-* Configuration
+- An event can be attended by many users
 
-* Database creation
+- Events take place at a specific date and at a location
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Build with Rails using Devise gem to handle User authentication and create User model
